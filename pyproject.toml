@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "A manim plugin providing the function play_timeline to play sequences of independent animations in parallel"
 license = "MIT"
 authors = ["Abul4fia <abul4fia@gmail.com>"]
+repository = "https://github.com/abul4fia/manim-play-timeline"
 readme = "README.md"
 classifiers= [
     "Development Status :: 4 - Beta",

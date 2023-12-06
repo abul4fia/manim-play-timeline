@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "manim-play-timeline"
 version = "0.1.0"
-description = "A plugin providing the function play_timeline to play sequences of independent animations in parallel"
+description = "A manim plugin providing the function play_timeline to play sequences of independent animations in parallel"
 license = "MIT"
-authors = ["Abul4fia <abul4fia@gmail.com"]
+authors = ["Abul4fia <abul4fia@gmail.com>"]
 readme = "README.md"
 classifiers= [
     "Development Status :: 4 - Beta",
@@ -19,7 +19,7 @@ classifiers= [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.12"
 manim = ">=0.17"
 
 [tool.poetry.plugins."manim.plugins"]

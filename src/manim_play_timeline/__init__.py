@@ -34,3 +34,6 @@ def play_timeline(scene: Scene, timeline: dict[float, Union[Iterable[Animation],
             ending_time = max(ending_time, t + anim.run_time)
     if ending_time > t:
         scene.wait(ending_time-t)
+
+
+__all__ = ["play_timeline"]
